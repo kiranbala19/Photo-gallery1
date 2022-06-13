@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Tangerine';
+    margin-bottom: 20px;
+    background: #238c35;
+  }
+  a{
+    text-decoration: none;
+    margin: 1em;
+    color: yellow;
+  }
+  h1{
+ font-size: 40px;
+ color: #26d9eb;
+ font-family: 'fire-animation';
+ }
+  nav {
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 30px;
+    color: yellow;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+    height: 100px;
+    text-align: center;
+    text-align-last: justify;
+    background-image: url("images/Tea-Plantation1.jpg");
+    /* font-weight: 400; */
+    font-size: larger;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+  }
+  
+  #gallery img {
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+  }
+  
+ 
+ 
